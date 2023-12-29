@@ -17,7 +17,7 @@ export async function getEnlace(enlace){
     }
 }
 
-export default function page ({params}) {
+export default function Page ({params}) {
     const [enlace, setEnlace] = useState(null);
     const [cargando, setCargando] = useState(true);
     const [alerta,setAlerta] = useState(null);
