@@ -21,7 +21,7 @@ export default function Home() {
         
     },[]);
 
-    const enlace = process.env.frontendURL + "/enlaces/" + url;
+    const enlace = process.env.NEXT_PUBLIC_frontendURL + "/enlaces/" + url;
     return (
       <div className="md:w-4/5 xl:w-3/5 mx-auto mb-32">
         {url ? (

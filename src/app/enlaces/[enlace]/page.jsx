@@ -113,7 +113,7 @@ export default function Page ({params}) {
 
                                 <div className='flex items-center justify-normal mt-10 mx-auto'>
                                     <Link legacyBehavior href={{
-                                        pathname: `${process.env.backendURL}/api/archivos/${enlace}`
+                                        pathname: `${process.env.NEXT_PUBLIC_backendURL}/api/archivos/${enlace}`
                                     }}>
                                         <a className='btn btn-primary font-bold uppercase'>Descargar archivo</a>
                                     </Link>
